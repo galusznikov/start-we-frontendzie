@@ -1,5 +1,5 @@
-console.log('Hello!');
-function powitanie()
-{
-    alert('Dziękuję');
-}
+const przycisk = document.querySelector("#powitanie");
+
+przycisk.addEventListener("click", function () {
+ alert("Dziękuję! Pozdrawiam");
+});
